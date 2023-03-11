@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/netlify': ^2.0.0
+  '@astrojs/netlify': 2.0.0
   '@astrojs/solid-js': ^2.1.0
   '@astrojs/tailwind': ^3.1.0
   '@iconify-icon/solid': ^1.0.7
@@ -11,7 +11,7 @@ specifiers:
   tailwindcss: ^3.0.24
 
 dependencies:
-  '@astrojs/netlify': 2.2.0_astro@2.1.2
+  '@astrojs/netlify': 2.0.0_astro@2.1.2
   '@astrojs/solid-js': 2.1.0_solid-js@1.6.12
   '@astrojs/tailwind': 3.1.0_5fkwwuzubt6borit3q7k7y2k74
   astro: 2.1.2
@@ -82,13 +82,12 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/netlify/2.2.0_astro@2.1.2:
-    resolution: {integrity: sha512-zpWb7yI96Gxmp6CuhFw7U0I4rH7LMHH6nIyf14gLXmRSLp9YHDux1a1T6zz1SZPNkbwkaHYHCCBnIMszHpkLCQ==}
+  /@astrojs/netlify/2.0.0_astro@2.1.2:
+    resolution: {integrity: sha512-DEyuEhWOvkzto2tW/xsM77lR1kV3+CgKxdGrTic4Jetu+CxrlXDvkiNG0tDvUYdGv2NbOb86fKn6JYRGsYt5bg==}
     peerDependencies:
-      astro: ^2.1.0
+      astro: ^2.0.0
     dependencies:
       '@astrojs/webapi': 2.1.0
-      '@netlify/functions': 1.4.0
       astro: 2.1.2
       esbuild: 0.15.18
     dev: false
@@ -683,13 +682,6 @@ packages:
 
   /@ljharb/has-package-exports-patterns/0.0.2:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
-    dev: false
-
-  /@netlify/functions/1.4.0:
-    resolution: {integrity: sha512-gy7ULTIRroc2/jyFVGx1djCmmBMVisIwrvkqggq5B6iDcInRSy2Tpkm+V5C63hKJVkNRskKWtLQKm9ecCaQTjA==}
-    engines: {node: '>=8.3.0'}
-    dependencies:
-      is-promise: 4.0.0
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -1969,10 +1961,6 @@ packages:
   /is-plain-obj/4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
-    dev: false
-
-  /is-promise/4.0.0:
-    resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
     dev: false
 
   /is-stream/3.0.0:
