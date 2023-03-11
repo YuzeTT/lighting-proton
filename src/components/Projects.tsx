@@ -51,9 +51,8 @@ export default function Projects() {
     <div class='grid grid-cols-1 md:grid-cols-2 gap-4'>
       <For each={projectList}>
         {(item) => 
-          <a href="#" class='flex items-center gap-3 bg-zinc-50 hover:bg-zinc-100 transition rounded-md p-3'>
+          <a href={item.url} target="_blank" class='flex items-center gap-3 bg-zinc-50 hover:bg-zinc-100 transition rounded-md p-3'>
             <Icon icon={item.icon} class="text-4xl" />
-            {/* {item.icon} */}
             <div>
               <h2 class='text-lg'>{item.name}</h2>
               <p class='text-zinc-500 text-sm'>{item.describe}</p>
