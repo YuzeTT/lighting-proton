@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/netlify': ^2.2.0
+  '@astrojs/netlify': ^2.0.0
   '@astrojs/solid-js': ^2.1.0
   '@astrojs/tailwind': ^3.1.0
   '@iconify-icon/solid': ^1.0.7
