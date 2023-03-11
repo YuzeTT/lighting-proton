@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Logo from '../components/icons/Logo.astro';
+import Link from '../components/Link';
+import Projects from '../components/Projects';
+---
+
+<Layout title="YuzeTT's personal homepage">
+	<main>
+		<div class="mt-12 px-4">
+			<Logo />
+		</div>
+		<h1 class="text-3xl font-bold pt-3 px-4">Long time no see!</h1>
+		<h1 class="text-4xl font-bold pt-2 px-4">I'm <span class="relative after:absolute after:-left-1 after:-right-1 after:-z-10 after:top-2/3 after:bottom-0 after:bg-emerald-300 after:transition-all hover:after:top-0">YuzeTT</span> .</h1>
+		<!-- <h1 class="text-4xl font-bold pt-2 px-4">I'm <span class="underline decoration-sky-500">YuzeTT</span> .</h1> -->
+		<!-- <p class="border-l-4 px-3 py-1 mt-2">
+			You will never know unless you try.
+		</p> -->
+		<p class="mt-10 text-2xl font-bold px-3 border-l-4 border-zinc-800">About Me</p>
+		<div class="flex flex-wrap gap-2 pt-4 px-4">
+			<span class="px-2.5 py-1 bg-zinc-100 rounded-full">📄 Student </span>
+			<span class="px-2.5 py-1 bg-zinc-100 rounded-full">🎨 Designer</span>
+			<span class="px-2.5 py-1 bg-zinc-100 rounded-full">💻 Developer</span>
+		</div>
+		<p class="px-4 pt-3">I was born in 2005, Passion for development and design</p>
+
+		<p class="mt-10 text-2xl font-bold px-3 border-l-4 border-zinc-800">My Projects</p>
+		<div class="px-4 pt-4">
+			<Projects client:load />
+		</div>
+
+		<p class="mt-10 text-2xl font-bold px-3 border-l-4 border-zinc-800">Find Me</p>
+		<div class="pt-4 px-4">
+			<p>My project is on <Link name="Github" href="https://github.com/YuzeTT" />.</p>
+			<p>My Email is <Link name="yuzett@outlook.com" href="mailto:yuzett@outlook.com" />.</p>
+		</div>
+	</main>
+</Layout>
+
+<style>
+</style>
